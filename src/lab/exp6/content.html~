@@ -1,0 +1,306 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Ultrafast Laser Virtual Lab</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+                Thermal Lens Spectroscopy with High Repetition Rate Lasers
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id="experiment-article-section-1-heading">
+                        Aim
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+                    <div class="content" id="experiment-article-section-1-content">
+                        <div class="divContent">
+                            <p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+                            normal'><span lang=EN-IN style='font-size:18.0pt;mso-bidi-font-size:11.0pt;
+                            line-height:115%;font-family:"Times New Roman","serif";color:#7030A0'>O</span></b><span
+                            lang=EN-IN style='font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;
+                            font-family:"Times New Roman","serif";color:#7030A0'>BJECTIVES</span><b
+                            style='mso-bidi-font-weight:normal'><span lang=EN-IN style='font-size:12.0pt;
+                            mso-bidi-font-size:11.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            color:#7030A0'>:</span></b><span lang=EN-IN style='font-size:12.0pt;mso-bidi-font-size:
+                            11.0pt;line-height:115%;font-family:"Times New Roman","serif"'> </span><span
+                            style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US'>Each
+                            Ultra-short LASER pulses deposit small amount of energy in the sample. In the
+                            case of High Repetition Rate (HRR) Laser, this individual heat accumulates in
+                            the sample to the longer time scale. How this heating effect can be utilized to
+                            study the chemical system.<o:p></o:p></span></p>
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <img src="../images/theory.jpg"></div>
+                    <div class="heading" id="experiment-article-section-2-heading">
+                        Theory
+                    </div>
+                    <div class="content" id="experiment-article-section-1-content">
+                        <div class="divContent">
+                            <p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+                            normal'><span lang=EN-IN style='font-size:18.0pt;mso-bidi-font-size:11.0pt;
+                            line-height:115%;font-family:"Times New Roman","serif";color:#7030A0'>T</span></b><span
+                            lang=EN-IN style='font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;
+                            font-family:"Times New Roman","serif";color:#7030A0'>HEORY:</span><span
+                            lang=EN-IN style='font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;
+                            font-family:"Times New Roman","serif"'> </span><span style='font-family:"Times New Roman","serif";
+                            mso-ansi-language:EN-US'>Thermal lens (TL) spectroscopy is based on the
+                            photo-thermal effect where energy of a photon, fully or partially, is converted
+                            into heat energy. In this spectroscopy, a laser source is used whose wavelength
+                            is chosen such that it can couple either with electronic levels or vibration
+                            levels of the sample under study. Beside this, energy can be transferred to the
+                            sample by scattering but energy transferred to sample, generally, negligible
+                            small. So we can neglect this mode of energy transfer mechanism. Energy
+                            transferred in the former case, leads the system in the excited state. From
+                            there, system can relax to the ground through various mechanism such as <span
+                            class=SpellE>radiative</span> (fluorescence and phosphorescence) or non-<span
+                            class=SpellE>radiative</span> mechanism. If system relax via non-<span
+                            class=SpellE>radiative</span> mechanism, it completely transfer its absorbed
+                            energy<span style='mso-spacerun:yes'>� </span>to the system in the form of heat
+                            while in case of <span class=SpellE>radiative</span> relaxation, some amount of
+                            energy is converted in the form of heat due the stokes shift. Because of all
+                            these heating mechanism, a spot of local heating is formed. As refractive index
+                            of medium is depend on the density and density changes with the change of
+                            temperature. All these factors make the local heats to be having smaller
+                            refractive index compare to the surrounding. Thermal conduction and convection
+                            try to equilibrate the heat generated in the sample and as we move away from
+                            the local heated area temperature decreases. In corollary to this, refractive
+                            index increases and system behave as Lens. As this lens is formed due to the
+                            heating (Thermal) in sample, so it is called Thermal Lens (TL). Also, it is
+                            based on light matter interaction, so it is called Thermal lens Spectroscopy. <o:p></o:p></span></p>
+
+                            <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+                            justify;text-indent:49.65pt'><span style='font-family:"Times New Roman","serif";
+                            mso-ansi-language:EN-US'>TL spectroscopy is far more sensitive than the usual
+                            absorption based study in order of magnitude. TL spectroscopy depends number of
+                            parameters such absorption co- efficient (how strongly the sample absorbed the
+                            laser wavelength), thermal conductivity, thermal expansion coefficient, heat
+                            capacity, refractive index, thermo-optic coefficient etc.<span
+                            style='mso-spacerun:yes'>� </span>The principle of TL spectroscopy is shown in
+                            fig.1<o:p></o:p></span></p>
+
+                            <p class=MsoNormal align=center style='text-align:center'><span
+                            style='font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+                            "Times New Roman","serif";mso-ansi-language:EN-US;mso-no-proof:yes'><![if !vml]><img width=533 height=266
+                            src="Thermal files/image002.png" alt="Description: Picture2.png" v:shapes="Picture_x0020_2"><![endif]></span><b
+                            style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><span
+                            style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US'><o:p></o:p></span></i></b></p>
+
+                            <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+                            normal'><span style='font-family:"Times New Roman","serif";mso-ansi-language:
+                            EN-US'>Fig1:</span></b><span style='font-family:"Times New Roman","serif";
+                            mso-ansi-language:EN-US'> Principle of Thermal Lens Signal<o:p></o:p></span></p>
+
+                            <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+                            normal'><span style='font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:
+                            115%;font-family:"Times New Roman","serif";mso-ansi-language:EN-US;mso-no-proof:
+                            yes'><![if !vml]><img width=359 height=202
+                            src="Thermal files/image004.png" alt="Description: Picture1.png" v:shapes="Picture_x0020_3"><![endif]></span></b><b
+                            style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><span
+                            style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US'><o:p></o:p></span></i></b></p>
+
+                            <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+                            normal'><span style='font-family:"Times New Roman","serif";mso-ansi-language:
+                            EN-US'>Fig. 2:- </span></b><span style='font-family:"Times New Roman","serif";
+                            mso-ansi-language:EN-US'>Schematic diagram of Thermal lens Spectroscopy<o:p></o:p></span></p>
+
+                            <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+                            style='font-size:18.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+                            "Times New Roman","serif";color:#7030A0;mso-ansi-language:EN-US'>I</span></b><span
+                            style='font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+                            "Times New Roman","serif";color:#7030A0;mso-ansi-language:EN-US'>NSTRUMENTS</span><span
+                            style='font-family:"Times New Roman","serif";color:#7030A0;mso-ansi-language:
+                            EN-US'> </span><b style='mso-bidi-font-weight:normal'><span style='font-size:
+                            18.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            color:#7030A0;mso-ansi-language:EN-US'>R</span></b><span style='font-size:10.0pt;
+                            mso-bidi-font-size:11.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            color:#7030A0;mso-ansi-language:EN-US'>EQUIRED</span><span style='font-family:
+                            "Times New Roman","serif";color:#7030A0;mso-ansi-language:EN-US'>:<o:p></o:p></span></p>
+
+                            <ol style='margin-top:0in' start=1 type=1>
+                             <li class=MsoNormal style='text-align:justify;mso-list:l4 level1 lfo8'><span
+                                 style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US'>Gold
+                                 mirrors, mirror holders, lenses, lens holders, irises.<o:p></o:p></span></li>
+                             <li class=MsoNormal style='text-align:justify;mso-list:l4 level1 lfo8'><span
+                                 style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US'>Motorized
+                                 Translational stage, motion controller, oscilloscope, detectors and
+                                 computer.<o:p></o:p></span></li>
+                             <li class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+                                 justify;mso-list:l4 level1 lfo8'><span style='font-family:"Times New Roman","serif";
+                                 mso-ansi-language:EN-US'>Laser glasses for eye safety.<o:p></o:p></span></li>
+                            </ol>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <img src="../images/procedure.jpg"></div>
+                    <div class="heading" id="experiment-article-section-3-heading">
+                        Procedure
+                    </div>
+                    <div class="content" id="experiment-article-section-3-content">
+                        <div class="divContent">                           
+                            <ol style='margin-top:0in' start=1 type=1>
+                             <li class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+                                 justify;line-height:normal;mso-list:l3 level1 lfo7'><span
+                                 style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US'>Turn
+                                 the IMRA LASER to standby for 10-15 minutes.<b style='mso-bidi-font-weight:
+                                 normal'><u><o:p></o:p></u></b></span></li>
+                             <li class=MsoNormal style='text-align:justify;mso-list:l3 level1 lfo7'><span
+                                 style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US'>Turn
+                                 on the emission of 780nm (probe beam) and 1560nm (pump beam)<b
+                                 style='mso-bidi-font-weight:normal'><u><o:p></o:p></u></b></span></li>
+                             <li class=MsoNormal style='text-align:justify;mso-list:l3 level1 lfo7'><span
+                                 style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US'>Make
+                                 the Mach-<span class=SpellE>Zehnder</span> Interferometer set-up using
+                                 780nm and 1560 nm LASER beam.<b style='mso-bidi-font-weight:normal'><u><o:p></o:p></u></b></span></li>
+                             <li class=MsoNormal style='text-align:justify;mso-list:l3 level1 lfo7'><span
+                                 style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US'>Focus
+                                 the final overlap beams of 780nm and 1560nm. <b style='mso-bidi-font-weight:
+                                 normal'><u><o:p></o:p></u></b></span></li>
+                             <li class=MsoNormal style='text-align:justify;mso-list:l3 level1 lfo7'><span
+                                 style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US'><span
+                                 style='mso-spacerun:yes'>�</span>Now place another lens in the 780nm beam
+                                 path, such that, the final 780 nm beam becomes collimated.<b
+                                 style='mso-bidi-font-weight:normal'><u><o:p></o:p></u></b></span></li>
+                             <li class=MsoNormal style='text-align:justify;mso-list:l3 level1 lfo7'><span
+                                 style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US'>Take
+                                 the 40% of central portion of 780 nm by putting iris.<b style='mso-bidi-font-weight:
+                                 normal'><o:p></o:p></b></span></li>
+                             <li class=MsoNormal style='text-align:justify;mso-list:l3 level1 lfo7'><span
+                                 style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US'>Put
+                                 the sample in experimental set-up and measured the transmittance through
+                                 the aperture by changing the position of sample with respect the focal
+                                 point of the focused laser. <b style='mso-bidi-font-weight:normal'><o:p></o:p></b></span></li>
+                             <li class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+                                 justify;mso-list:l3 level1 lfo7'><span style='font-family:"Times New Roman","serif";
+                                 mso-ansi-language:EN-US'>Plot the measured transmittance with respect to
+                                 the position and calculate the Thermal Lens signal by following equation<b
+                                 style='mso-bidi-font-weight:normal'><o:p></o:p></b></span></li>
+                            </ol>
+
+                            <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+                            justify'><![if !msEquation]><span
+                            lang=EN-IN style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+                            mso-fareast-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+                            mso-ansi-language:EN-IN;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><![if !vml]><img width=149 height=46
+                            src="Thermal files/image006.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b
+                            style='mso-bidi-font-weight:normal'><span style='font-family:"Times New Roman","serif";
+                            mso-ansi-language:EN-US'><o:p></o:p></span></b></p>
+
+                            <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+                            justify'><b style='mso-bidi-font-weight:normal'><span style='font-family:"Times New Roman","serif";
+                            mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></b></p>
+
+                            <p class=MsoNormal style='text-align:justify'><span style='font-family:"Times New Roman","serif";
+                            mso-ansi-language:EN-US'>where <span class=SpellE><i>T<sub>p</sub></i></span>(<span
+                            class=SpellE><i>&#955;</i><sub>e</sub></span>) and <i>T</i><sub>p0</sub> are
+                            the probe transmittance through aperture in the presence and in the absence of
+                            pump-beam, respectively<o:p></o:p></span></p>
+    				    </div>
+                    </div>
+		        </section>
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/eval.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Softwares
+                    </div>
+
+                    <div class="content" id="experiment-article-section-4-content">
+                        <div class="divContent">                           
+                            <ol style='margin-top:0in' start=1 type=1>
+                             <li class=MsoNormal style='text-align:justify;mso-list:l2 level1 lfo6'><span
+                                 class=SpellE><span style='font-family:"Times New Roman","serif";
+                                 mso-ansi-language:EN-US'>LabVIEW</span></span><span style='font-family:
+                                 "Times New Roman","serif";mso-ansi-language:EN-US'> software for data
+                                 acquisition.<b style='mso-bidi-font-weight:normal'><o:p></o:p></b></span></li>
+                             <li class=MsoNormal style='margin-bottom:12.0pt;text-align:justify;mso-list:
+                                 l2 level1 lfo6'><span style='font-family:"Times New Roman","serif";
+                                 mso-ansi-language:EN-US'>Origin pro for data plotting and analysis. <b
+                                 style='mso-bidi-font-weight:normal'><o:p></o:p></b></span></li>
+                            </ol>
+                            <p class=MsoListParagraph style='margin-left:.25in;mso-add-space:auto'><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>Note: For user
+                            operation and usage no specific software needed.<o:p></o:p></span></p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>

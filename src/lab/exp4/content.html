@@ -1,0 +1,364 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Ultrafast Laser Virtual Lab</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+                Live Cell Multiphoton Imaging: Principles & Experiments
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id="experiment-article-section-1-heading">
+                        Aim
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+                    <div class="content" id="experiment-article-section-1-content">
+                        <div class="divContent">
+                            <p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+                            normal'><span lang=EN-IN style='font-size:18.0pt;mso-bidi-font-size:11.0pt;
+                            line-height:115%;font-family:"Times New Roman","serif";color:#7030A0'>O</span></b><span
+                            lang=EN-IN style='font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;
+                            font-family:"Times New Roman","serif";color:#7030A0'>BJECTIVE</span><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>: Femtosecond laser
+                            pulses, when focused onto a fluorophore, can generate two-photon fluorescence
+                            from the focus only due to its very high peak power. Using this property,
+                            femtosecond laser pulses are used in multiphoton microscopy. It has better
+                            depth resolution as well as less toxicity compared to the confocal microscopy
+                            as here a red shifted light is used for excitation.<o:p></o:p></span></p>
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <img src="../images/theory.jpg"></div>
+                    <div class="heading" id="experiment-article-section-2-heading">
+                        Theory
+                    </div>
+                    <div class="content" id="experiment-article-section-1-content">
+                        <div class="divContent">
+                            <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+                            justify'><span lang=EN-IN style='font-family:"Times New Roman","serif"'> In multiphoton
+                            microscope, where mainly two-photon fluorescence is generated and detected,
+                            unlike the confocal microscope, no confocal aperture is needed as the
+                            two-photon fluorescence is generated only from the focal spot. Moreover, here
+                            we can simultaneously excite a whole range of fluorophores using a single laser
+                            unlike the confocal microscope as fluorophores have very wide two-photon
+                            absorption band compared to its single photon absorption band. The small
+                            difference between the multiphoton and confocal microscope is that in the
+                            former case we do not need the pinhole, but we need filter (s) to separate the
+                            fluorescence coming from the various fluorophores.</span><span lang=EN-IN
+                            style='mso-bidi-font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+                            <p class=MsoNormal align=center style='text-align:center'><span
+                            style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US;
+                            mso-no-proof:yes'><![if !vml]><img width=333 height=310
+                            src="Live files/image002.jpg" alt="Description: ImagepIma_DSP.BMP" v:shapes="Picture_x0020_0"><![endif]></span><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+                            <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+                            text-align:center'><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Image
+                            of a BPAE tissue under two-photon excitation<o:p></o:p></span></p>
+
+                            <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-IN
+                            style='font-size:18.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+                            "Times New Roman","serif";color:#7030A0'>I</span></b><span lang=EN-IN
+                            style='font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+                            "Times New Roman","serif";color:#7030A0'>NSTRUMENTS</span><span lang=EN-IN
+                            style='font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+                            "Times New Roman","serif";color:#7030A0'> </span><b style='mso-bidi-font-weight:
+                            normal'><span lang=EN-IN style='font-size:18.0pt;mso-bidi-font-size:11.0pt;
+                            line-height:115%;font-family:"Times New Roman","serif";color:#7030A0'>R</span></b><span
+                            lang=EN-IN style='font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;
+                            font-family:"Times New Roman","serif";color:#7030A0'>EQUIRED</span><span
+                            lang=EN-IN style='font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%;
+                            font-family:"Times New Roman","serif";color:#7030A0'>:<o:p></o:p></span></p>
+
+                            <ol style='margin-top:0in' start=1 type=1>
+                             <li class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;mso-list:
+                                 l2 level1 lfo5'><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Excitation
+                                 Pulsed Laser<o:p></o:p></span></li>
+                             <li class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;mso-list:
+                                 l2 level1 lfo5'><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Microscope<o:p></o:p></span></li>
+                             <li class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;mso-list:
+                                 l2 level1 lfo5'><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Microscope
+                                 Objective<o:p></o:p></span></li>
+                             <li class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;mso-list:
+                                 l2 level1 lfo5'><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Fluorescent
+                                 Sample<o:p></o:p></span></li>
+                             <li class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;mso-list:
+                                 l2 level1 lfo5'><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Dichroic
+                                 Mirror<o:p></o:p></span></li>
+                             <li class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;mso-list:
+                                 l2 level1 lfo5'><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Filters<o:p></o:p></span></li>
+                             <li class=MsoNormal style='color:#7030A0;margin-bottom:0in;margin-bottom:.0001pt;
+                                 text-align:justify;mso-list:l2 level1 lfo5'><span lang=EN-IN
+                                 style='font-family:"Times New Roman","serif";color:windowtext'>Detector</span><span
+                                 style='font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;
+                                 font-family:"Times New Roman","serif";mso-ansi-language:EN-US'><o:p></o:p></span></li>
+                            </ol>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <img src="../images/procedure.jpg"></div>
+                    <div class="heading" id="experiment-article-section-3-heading">
+                        Procedure
+                    </div>
+                    <div class="content" id="experiment-article-section-3-content">
+                        <div class="divContent">
+                            <p class=MsoListParagraphCxSpFirst style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Turn
+                            on the excitation Laser.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Turn
+                            on the �ML� button to convert it to the femtosecond pulse Laser.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Place
+                            a drop of immersion oil on the oil immersion microscope objective of a specific
+                            magnification <o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Place
+                            the microscopic slide of stained live cell on the sample plane.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='mso-bidi-font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>5.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='mso-bidi-font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Tighten
+                            it with the clamps.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Turn
+                            on the UV lamp.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Move
+                            the objective such that the oil placed on it touches the bottom side of the
+                            slide.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Let
+                            the UV light pass through the objective and get focused on the sample (i.e.,
+                            microscopic slide) and see the fluorescence coming from the stained live cell
+                            through the microscope eye piece.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Focus
+                            the sample seeing the fluorescence of the cells.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>10.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>Block the UV lamp.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>11.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>Turn on the FLUOVIEW
+                            software for image collection.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>12.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>Fix the power of the
+                            excitation Laser beam.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>13.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>Let the excitation Laser
+                            beam pass through the microscope objective.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>14.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>Set the value of
+                            confocal aperture to its maximum value as multiphoton microscope does not need
+                            any confocal aperture.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>15.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>Place proper
+                            fluorescence filter (i.e., band pass filter) for selecting the fluorescence
+                            coming from the specific region of the cells (e.g., nucleus, microtubules
+                            etc.).<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>16.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>Turn on the Photo
+                            Multiplier Tube (PMT) detector to collect the fluorescence.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>17.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>Increase the PMT
+                            voltage to have a good signal.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>18.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>Select the area of the
+                            cell to be selected.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>19.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>Click on the �scan
+                            once� button getting the image of the live cell sample.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpLast style='text-align:justify;text-indent:-.25in;
+                            mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=EN-IN
+                            style='font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+                            "Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>20.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>Save the image by
+                            clicking the buttons in the following order: File I/O <span class=GramE>=</span>&gt;
+                            Save Image as and then select the file type (.TIFF or .BMP) and where to save
+                            the image and then click the �save� button to save the image.</span><span
+                            lang=EN-IN style='font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%;
+                            font-family:"Times New Roman","serif"'><o:p></o:p></span></p>                            
+    				    </div>
+                    </div>
+		        </section>
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/eval.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Softwares
+                    </div>
+
+                    <div class="content" id="experiment-article-section-4-content">
+                        <div class="divContent">
+                            <ol style='margin-top:0in' start=1 type=1>
+                             <li class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+                                 justify;mso-list:l7 level1 lfo6'><span style='font-family:"Times New Roman","serif";
+                                 mso-ansi-language:EN-US'>FLUOVIEW</span><b style='mso-bidi-font-weight:
+                                 normal'><span style='font-size:10.0pt;mso-bidi-font-size:11.0pt;
+                                 line-height:115%;font-family:"Times New Roman","serif";mso-ansi-language:
+                                 EN-US'><o:p></o:p></span></b></li>
+                            </ol>
+
+                            <p class=MsoListParagraph style='margin-left:.25in;mso-add-space:auto'><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>Note: For user
+                            operation and usage no specific software needed.<o:p></o:p></span></p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>

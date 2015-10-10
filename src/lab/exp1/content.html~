@@ -1,0 +1,646 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Ultrafast Laser Virtual Lab</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+                Ultrafast Laser Pulse Measurment
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id="experiment-article-section-1-heading">
+                        Aim
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+                    <div class="content" id="experiment-article-section-1-content">
+                        <div class="divContent">
+                            <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-IN
+                            style='font-size:18.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+                            "Times New Roman","serif";color:#7030A0'>O</span></b><span lang=EN-IN
+                            style='font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+                            "Times New Roman","serif";color:#7030A0'>BJECTIVES</span><span lang=EN-IN
+                            style='font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+                            "Times New Roman","serif";color:#7030A0'>:</span><span lang=EN-IN
+                            style='font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+                            "Times New Roman","serif"'> </span><span lang=EN-IN style='font-family:"Times New Roman","serif"'>The
+                            accurate knowledge of the pulse width of the ultrafast laser pulse is of
+                            paramount importance during any experiment in an ultrafast lab. While modern
+                            day electronics can not measure any event faster than few Pico-seconds, there are
+                            some other state of the art techniques available for characterizing the laser
+                            pulses among which Autocorrelation is one of the most efficient techniques
+                            which we practice regularly. <o:p></o:p></span></p>
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <img src="../images/theory.jpg"></div>
+                    <div class="heading" id="experiment-article-section-2-heading">
+                        Theory
+                    </div>
+                    <div class="content" id="experiment-article-section-1-content">
+                        <div class="divContent">
+                            <p class=MsoNormal style='text-align:justify'><span lang=EN-IN
+                            style='font-size:18.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+                            "Times New Roman","serif";color:#7030A0'>T</span><span lang=EN-IN
+                            style='font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+                            "Times New Roman","serif";color:#7030A0'>HEORY:</span><span lang=EN-IN
+                            style='font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+                            "Times New Roman","serif"'> </span><span lang=EN-IN style='font-family:"Times New Roman","serif"'>As
+                            the name suggests, the autocorrelation is the measurement of the pulse using
+                            the original pulse itself. Experimentally the original pulse is split in two
+                            equal parts and they are again made to recombine both specially and temporally
+                            using a variable time delay in one arm. A detector placed at the recombination
+                            point detects the interference between two pulses which in turn is converted to
+                            the autocorrelation spectrum. Depending on the measurement process this can be
+                            of two types- Intensity Autocorrelation and Field Autocorrelation.<o:p></o:p></span></p>
+
+                            <p class=MsoNormal style='text-align:justify'><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif"'>Mathematically, autocorrelation
+                            function is defined as <o:p></o:p></span></p>
+
+                            <p class=MsoNormal style='text-align:justify'><![if !msEquation]><span
+                            lang=EN-IN style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+                            mso-fareast-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+                            mso-ansi-language:EN-IN;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><![if !vml]><img width=167 height=41
+                            src="ultrafast files/image002.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+                            <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+                            normal'><u><span lang=EN-IN style='font-size:16.0pt;mso-bidi-font-size:11.0pt;
+                            line-height:115%;font-family:"Times New Roman","serif";color:#002060'>I</span></u></b><b
+                            style='mso-bidi-font-weight:normal'><u><span lang=EN-IN style='font-size:10.0pt;
+                            mso-bidi-font-size:11.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            color:#002060'>NTENSITY</span></u></b><b style='mso-bidi-font-weight:normal'><u><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif";color:#002060'> </span></u></b><b
+                            style='mso-bidi-font-weight:normal'><u><span lang=EN-IN style='font-size:16.0pt;
+                            mso-bidi-font-size:11.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            color:#002060'>A</span></u></b><b style='mso-bidi-font-weight:normal'><u><span
+                            lang=EN-IN style='font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;
+                            font-family:"Times New Roman","serif";color:#002060'>UTOCORRELATION</span></u></b><b
+                            style='mso-bidi-font-weight:normal'><u><span lang=EN-IN style='font-family:
+                            "Times New Roman","serif";color:#002060'>:<o:p></o:p></span></u></b></p>
+
+                            <p class=MsoNormal style='text-align:justify'><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif"'>This is done using a
+                            non-collinear geometry where the two arms are focused to a point using a lens
+                            and a BBO is kept at the focal point. At this point the second harmonic
+                            generated is proportional to </span><![if !msEquation]><span
+                            lang=EN-IN style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+                            mso-fareast-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+                            position:relative;top:6.0pt;mso-text-raise:-6.0pt;mso-ansi-language:EN-IN;
+                            mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><![if !vml]><img width=118 height=26
+                            src="ultrafast files/image004.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif";mso-fareast-font-family:
+                            "Times New Roman";mso-fareast-theme-font:minor-fareast'> which is the sum of three components. The
+                            third component proportional to </span><img width=93 height=20
+                            src="ultrafast files/image006.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif";mso-fareast-font-family:
+                            "Times New Roman";mso-fareast-theme-font:minor-fareast'> is our desired autocorrelation signal that is
+                            detected by the detector as<o:p></o:p></span></p>
+
+                            <p class=MsoNormal style='text-align:justify'><![if !msEquation]><span
+                            lang=EN-IN style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+                            mso-fareast-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+                            mso-ansi-language:EN-IN;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>
+                            </v:shape><![endif]--><![if !vml]><img width=332 height=41
+                            src="ultrafast files/image008.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif";mso-fareast-font-family:
+                            "Times New Roman";mso-fareast-theme-font:minor-fareast'><o:p></o:p></span></p>
+
+                            <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+                            normal'><span style='font-family:"Times New Roman","serif";mso-ansi-language:
+                            EN-US;mso-no-proof:yes'><![if !vml]><img width=457 height=319
+                            src="ultrafast files/image010.jpg" alt="Description: Slide1.JPG" v:shapes="Picture_x0020_3"><![endif]></span></b><b
+                            style='mso-bidi-font-weight:normal'><u><span lang=EN-IN style='font-family:
+                            "Times New Roman","serif"'><o:p></o:p></span></u></b></p>
+
+                            <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+                            normal'><u><span lang=EN-IN style='font-size:16.0pt;mso-bidi-font-size:11.0pt;
+                            line-height:115%;font-family:"Times New Roman","serif";color:#002060'>F</span></u></b><b
+                            style='mso-bidi-font-weight:normal'><u><span lang=EN-IN style='font-size:10.0pt;
+                            mso-bidi-font-size:11.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            color:#002060'>IELD </span></u></b><b style='mso-bidi-font-weight:normal'><u><span
+                            lang=EN-IN style='font-size:16.0pt;mso-bidi-font-size:11.0pt;line-height:115%;
+                            font-family:"Times New Roman","serif";color:#002060'>A</span></u></b><b
+                            style='mso-bidi-font-weight:normal'><u><span lang=EN-IN style='font-size:10.0pt;
+                            mso-bidi-font-size:11.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            color:#002060'>UTOCORRELATION</span></u></b><b style='mso-bidi-font-weight:
+                            normal'><span lang=EN-IN style='font-size:10.0pt;mso-bidi-font-size:11.0pt;
+                            line-height:115%;font-family:"Times New Roman","serif";color:#002060'>:<o:p></o:p></span></b></p>
+
+                            <p class=MsoNormal align=center style='text-align:center'><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif"'>This is done in a collinear
+                            geometry where two pulses are recombined collinearly and the signal detected by
+                            the detector is given by<o:p></o:p></span></p>
+
+                            <p class=MsoNormal style='text-align:justify'><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif"'><span
+                            lang=EN-IN style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+                            mso-fareast-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+                            position:relative;top:7.5pt;mso-text-raise:-7.5pt;mso-ansi-language:EN-IN;
+                            mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><![if !vml]><img width=388 height=26
+                            src="ultrafast files/image012.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif";mso-fareast-font-family:
+                            "Times New Roman";mso-fareast-theme-font:minor-fareast'><o:p></o:p></span></p>
+
+                            <p class=MsoNormal style='text-align:justify'><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman";
+                            mso-fareast-theme-font:minor-fareast'> Where </span><![if !msEquation]><span
+                            lang=EN-IN style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+                            mso-fareast-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+                            position:relative;top:5.5pt;mso-text-raise:-5.5pt;mso-ansi-language:EN-IN;
+                            mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><![if !vml]><img width=53 height=21
+                            src="ultrafast files/image014.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif";mso-fareast-font-family:
+                            "Times New Roman";mso-fareast-theme-font:minor-fareast'> is the first order autocorrelation function. If we place
+                            a BBO crystal in front of the detector and collect only the SHG signal we get
+                            the interferrometric (second order) autocorrelation signal as before(look at
+                            intensity autocorrelation for mathematical expression).<o:p></o:p></span></p>
+                            <p class=MsoNormal align=center style='text-align:center'><span
+                            style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US;
+                            mso-no-proof:yes'><![if !vml]><img width=363 height=287
+                            src="ultrafast files/image016.jpg" alt="Description: Slide2.JPG" v:shapes="Picture_x0020_4"><![endif]></span><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+                            
+                            <p class=MsoNormal style='line-height:normal'><b style='mso-bidi-font-weight:
+                            normal'><span style='font-size:18.0pt;mso-bidi-font-size:11.0pt;font-family:
+                            "Times New Roman","serif";color:#7030A0;mso-ansi-language:EN-US'>I</span></b><span
+                            style='font-size:10.0pt;mso-bidi-font-size:11.0pt;font-family:"Times New Roman","serif";
+                            color:#7030A0;mso-ansi-language:EN-US'>NSTRUMENTS</span><span style='font-family:
+                            "Times New Roman","serif";color:#7030A0;mso-ansi-language:EN-US'> </span><b
+                            style='mso-bidi-font-weight:normal'><span lang=EN-IN style='font-size:18.0pt;
+                            mso-bidi-font-size:11.0pt;font-family:"Times New Roman","serif";color:#7030A0'>U</span></b><span
+                            lang=EN-IN style='font-size:10.0pt;mso-bidi-font-size:11.0pt;font-family:"Times New Roman","serif";
+                            color:#7030A0'>TILIZED</span><b style='mso-bidi-font-weight:normal'><span
+                            style='font-family:"Times New Roman","serif";color:#7030A0;mso-ansi-language:
+                            EN-US'>:</span></b><span style='font-family:"Times New Roman","serif";
+                            color:#7030A0;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l2 level1 lfo7'><![if !supportLists]><span
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman";
+                            mso-ansi-language:EN-US'><span style='mso-list:Ignore'>1.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+                            style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US'>LASER,
+                            Mirrors, mirror holders.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l2 level1 lfo7'><![if !supportLists]><span
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman";
+                            mso-ansi-language:EN-US'><span style='mso-list:Ignore'>2.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+                            style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US'>Lenses,
+                            lens holders, irises, retro mirror.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l2 level1 lfo7'><![if !supportLists]><span
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman";
+                            mso-ansi-language:EN-US'><span style='mso-list:Ignore'>3.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+                            style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US'>Beam
+                            splitter,<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l2 level1 lfo7'><![if !supportLists]><span
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman";
+                            mso-ansi-language:EN-US'><span style='mso-list:Ignore'>4.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+                            style='font-family:"Times New Roman","serif";mso-ansi-language:EN-US'></span>Non Linear Crystal (BBO).<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l2 level1 lfo7'><![if !supportLists]><span style='font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-US'><span
+                            style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span style='font-family:"Times New Roman","serif";
+                            mso-ansi-language:EN-US'>Photo Diode.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l2 level1 lfo7'><![if !supportLists]><span style='font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-US'><span
+                            style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span style='font-family:"Times New Roman","serif";
+                            mso-ansi-language:EN-US'>Oscilloscope, GPIB Card<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l2 level1 lfo7'><![if !supportLists]><span style='font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-US'><span
+                            style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span style='font-family:"Times New Roman","serif";
+                            mso-ansi-language:EN-US'>Motorized Linear Stage, Motorized Stage Controller<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l2 level1 lfo7'><![if !supportLists]><span style='font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-US'><span
+                            style='mso-list:Ignore'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span style='font-family:"Times New Roman","serif";
+                            mso-ansi-language:EN-US'>BNC cable, GPIB connector.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpLast style='text-align:justify;text-indent:-.25in;
+                            mso-list:l2 level1 lfo7'><![if !supportLists]><span style='font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-US'><span
+                            style='mso-list:Ignore'>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span style='font-family:"Times New Roman","serif";
+                            mso-ansi-language:EN-US'>Laser glasses for eye safety.<o:p></o:p></span></p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <img src="../images/procedure.jpg"></div>
+                    <div class="heading" id="experiment-article-section-3-heading">
+                        Procedure
+                    </div>
+                    <div class="content" id="experiment-article-section-3-content">
+                        <div class="divContent">
+                            <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+                            normal'><u><span lang=EN-IN style='font-size:16.0pt;mso-bidi-font-size:11.0pt;
+                            line-height:115%;font-family:"Times New Roman","serif";color:#002060'>I</span></u></b><b
+                            style='mso-bidi-font-weight:normal'><u><span lang=EN-IN style='font-size:10.0pt;
+                            mso-bidi-font-size:11.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            color:#002060'>NTENSITY</span></u></b><b style='mso-bidi-font-weight:normal'><u><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif";color:#002060'> </span></u></b><b
+                            style='mso-bidi-font-weight:normal'><u><span lang=EN-IN style='font-size:16.0pt;
+                            mso-bidi-font-size:11.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            color:#002060'>A</span></u></b><b style='mso-bidi-font-weight:normal'><u><span
+                            lang=EN-IN style='font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;
+                            font-family:"Times New Roman","serif";color:#002060'>UTOCORRELATION</span></u></b><b
+                            style='mso-bidi-font-weight:normal'><u><span lang=EN-IN style='font-family:
+                            "Times New Roman","serif";color:#002060'>:</span></u></b><span
+                            style='font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+                            "Times New Roman","serif";color:#7030A0;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpFirst style='text-align:justify;text-indent:-.25in;
+                            mso-list:l3 level1 lfo5'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Turn
+                            ON the key Switch (from OFF to ON position).<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l3 level1 lfo5'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Wait
+                            for 10-15 minutes.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l3 level1 lfo5'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Open
+                            the Shutter by pressing the shutter open switch and then press the power level
+                            2 <span class=GramE>switch</span>.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l3 level1 lfo5'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Switch
+                            on the <span class=SpellE>Chiller</span>.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l3 level1 lfo5'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Wait
+                            for 40-45 minutes for stabilization of the laser; put a power meter in the
+                            optical path to measure the average power of the laser and then remove it.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l3 level1 lfo5'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Make
+                            the laser from CW to Mode Locked Condition.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l3 level1 lfo5'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Put
+                            one ultrafast thin Beam Splitter (BS), which divides the total optical path
+                            into two parts. One path is call pump path and another is called probe path. <o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l3 level1 lfo5'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Put
+                            the Retro on a motorized stage in one path (Probe path) such that the beam
+                            height at the input and at the output paths are same &amp; the beam path
+                            distances of the input and output paths are same up to 4-5 meter distances. If
+                            the beam paths are not parallel then recheck the alignment. <o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l3 level1 lfo5'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></span></span><![endif]><span lang=EN-IN style='font-family:"Times New Roman","serif"'>Align
+                            the laser path according to schematic diagram (Fig: 1).<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l3 level1 lfo5'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>10.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>Measure the Optical
+                            Path &amp; make sure that the pump and probe path lengths are same, and make
+                            the output beam paths parallel (both Pump and probe), If both are not parallel
+                            then make it parallel and recheck the alignment properly.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l3 level1 lfo5'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>11.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>Put one Plano convex
+                            lens (15 mm) in to the parallel path such that Foci of the pump &amp; probe
+                            beams are same.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l3 level1 lfo5'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>12.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>Put one thin BBO (SHG
+                            crystal) in to the foci and rotate the BBO such that in the middle of the two
+                            beam one extra signal is generated , which is SHG signal, if this signal is
+                            absent then move the motorized stage such that the SHG signal is generated, if not recheck the alignment .<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-.25in;
+                            mso-list:l3 level1 lfo5'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>13.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>After SHG generation
+                            keep a Photo Diode (PD) into the SHG path and collect the SHG signal through
+                            digital Oscilloscope interfaced with GPIB to the computer.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpLast style='text-align:justify;text-indent:-.25in;
+                            mso-list:l3 level1 lfo5'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>14.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='font-family:"Times New Roman","serif"'>Move the Motorized
+                            stage and collect the SHG signal, after collecting data fit it into Gaussian
+                            and measure the Full width at Half Maxima (FWHM) which is the pulse width of
+                            the laser pulse.<o:p></o:p></span></p>
+
+                            <p class=MsoNormal style='text-align:justify'><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+                            <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+                            normal'><u><span lang=EN-IN style='font-size:16.0pt;mso-bidi-font-size:11.0pt;
+                            line-height:115%;font-family:"Times New Roman","serif";color:#002060'>F</span></u></b><b
+                            style='mso-bidi-font-weight:normal'><u><span lang=EN-IN style='font-size:10.0pt;
+                            mso-bidi-font-size:11.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            color:#002060'>IELD </span></u></b><b style='mso-bidi-font-weight:normal'><u><span
+                            lang=EN-IN style='font-size:16.0pt;mso-bidi-font-size:11.0pt;line-height:115%;
+                            font-family:"Times New Roman","serif";color:#002060'>A</span></u></b><b
+                            style='mso-bidi-font-weight:normal'><u><span lang=EN-IN style='font-size:10.0pt;
+                            mso-bidi-font-size:11.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            color:#002060'>UTOCORRELATION</span></u></b><b style='mso-bidi-font-weight:
+                            normal'><span lang=EN-IN style='font-size:10.0pt;mso-bidi-font-size:11.0pt;
+                            line-height:115%;font-family:"Times New Roman","serif";color:#002060'>:<o:p></o:p></span></b></p>
+
+                            <p class=MsoListParagraphCxSpFirst style='margin-bottom:0in;margin-bottom:.0001pt;
+                            mso-add-space:auto;text-align:justify;text-indent:-.25in;mso-list:l5 level1 lfo6'><![if !supportLists]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>1.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Turn
+                            <b style='mso-bidi-font-weight:normal'>ON</b> the key Switch (from OFF to ON
+                            position).<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+                            .0001pt;mso-add-space:auto;text-align:justify;text-indent:-.25in;mso-list:l5 level1 lfo6'><![if !supportLists]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>2.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Wait
+                            for 10-15 minutes.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+                            .0001pt;mso-add-space:auto;text-align:justify;text-indent:-.25in;mso-list:l5 level1 lfo6'><![if !supportLists]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>3.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Open
+                            the Shutter by pressing the shutter open switch and then press the <b
+                            style='mso-bidi-font-weight:normal'>power level 2</b> <span class=GramE>switch</span>.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+                            .0001pt;mso-add-space:auto;text-align:justify;text-indent:-.25in;mso-list:l5 level1 lfo6'><![if !supportLists]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>4.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Switch
+                            on the <span class=SpellE>Chiller</span>.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+                            .0001pt;mso-add-space:auto;text-align:justify;text-indent:-.25in;mso-list:l5 level1 lfo6'><![if !supportLists]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>5.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Wait
+                            for 40-45 minutes for stabilization of the laser; put a power meter in the
+                            optical path to measure the average power of the laser and then remove it.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+                            .0001pt;mso-add-space:auto;text-align:justify;text-indent:-.25in;mso-list:l5 level1 lfo6'><![if !supportLists]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>6.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Make
+                            the laser from <b style='mso-bidi-font-weight:normal'>CW </b>to <b
+                            style='mso-bidi-font-weight:normal'>Mode Locked</b> Condition.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+                            .0001pt;mso-add-space:auto;text-align:justify;text-indent:-.25in;mso-list:l5 level1 lfo6'><![if !supportLists]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>7.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Put
+                            one ultrafast thin Beam Splitter (BS), which divides the total optical path
+                            into two parts. One path is called pump path and another is called probe path. <o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+                            .0001pt;mso-add-space:auto;text-align:justify;text-indent:-.25in;mso-list:l5 level1 lfo6'><![if !supportLists]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>8.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Put
+                            the Retro on a motorized stage in one path (Probe path) such that the beam
+                            height at the input and at the output paths are same &amp; the beam path
+                            distances of the input and output paths are same up to 4-5 meter distances. If
+                            the beam paths are not parallel then recheck the alignment. <o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+                            .0001pt;mso-add-space:auto;text-align:justify;text-indent:-.25in;mso-list:l5 level1 lfo6'><![if !supportLists]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>9.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Put
+                            another ultrafast thin beam splitter in the crossing point of the pump and
+                            probe beam such that they are fully overlapped in the transmitted and reflected
+                            path, if they are not properly overlapped then recheck the alignment properly.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+                            .0001pt;mso-add-space:auto;text-align:justify;text-indent:-.25in;mso-list:l5 level1 lfo6'><![if !supportLists]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>10.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Align
+                            the laser path according to schematic diagram (Fig: 3).<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+                            .0001pt;mso-add-space:auto;text-align:justify;text-indent:-.25in;mso-list:l5 level1 lfo6'><![if !supportLists]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>11.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Measure
+                            the Optical Path &amp; make sure that the pump and probe path lengths are same.
+                            When both the arm are of same lengths then we can see the fringes by putting a
+                            white paper after the second beam splitter, if fringes are not visible, recheck
+                            the alignment properly.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+                            .0001pt;mso-add-space:auto;text-align:justify;text-indent:-.25in;mso-list:l5 level1 lfo6'><![if !supportLists]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>12.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Put
+                            one Plano convex lens (15 mm) in to the transmitted path.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+                            .0001pt;mso-add-space:auto;text-align:justify;text-indent:-.25in;mso-list:l5 level1 lfo6'><![if !supportLists]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif";
+                            mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>13.<span
+                            style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif"'>After
+                            checking the fringes pattern keep a Photo Diode (PD) into the optical path and
+                            collect the signal through digital Oscilloscope interfaced with GPIB to the
+                            computer.<o:p></o:p></span></p>
+
+                            <p class=MsoListParagraphCxSpLast style='text-align:justify;text-indent:-.25in;
+                            mso-list:l5 level1 lfo6'><![if !supportLists]><span lang=EN-IN
+                            style='font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+                            style='mso-list:Ignore'>14.<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+                            lang=EN-IN style='mso-bidi-font-size:10.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Move
+                            the Motorized stage and collect the signal, after collecting data fit it into
+                            Gaussian and measure the Full width at Half Maxima (FWHM) which is the pulse
+                            width of the laser pulse.</span><span lang=EN-IN style='font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+				    </div>
+		    </div>
+		</section>
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/eval.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Softwares
+                    </div>
+
+                    <div class="content" id="experiment-article-section-4-content">
+                        <div class="divContent">
+                            <p class=MsoNormal style='margin-top:12.0pt;text-align:justify'><b
+                            style='mso-bidi-font-weight:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+                            11.0pt;line-height:115%;font-family:"Times New Roman","serif";color:#7030A0;
+                            mso-ansi-language:EN-US'>S</span></b><span style='font-size:10.0pt;mso-bidi-font-size:
+                            11.0pt;line-height:115%;font-family:"Times New Roman","serif";color:#7030A0;
+                            mso-ansi-language:EN-US'>OFTWARE</span><b style='mso-bidi-font-weight:normal'><span
+                            style='font-family:"Times New Roman","serif";color:#7030A0;mso-ansi-language:
+                            EN-US'> </span></b><b style='mso-bidi-font-weight:normal'><span lang=EN-IN
+                            style='font-size:18.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+                            "Times New Roman","serif";color:#7030A0'>U</span></b><span lang=EN-IN
+                            style='font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
+                            "Times New Roman","serif";color:#7030A0'>SED</span><b style='mso-bidi-font-weight:
+                            normal'><span style='font-family:"Times New Roman","serif";color:#7030A0;
+                            mso-ansi-language:EN-US'>:<o:p></o:p></span></b></p>
+
+                            <ol style='margin-top:0in' start=1 type=1>
+                             <li class=MsoNormal style='text-align:justify;mso-list:l1 level1 lfo8'><span
+                                 class=SpellE><span style='font-family:"Times New Roman","serif";
+                                 mso-ansi-language:EN-US'>LabVIEW</span></span><span style='font-family:
+                                 "Times New Roman","serif";mso-ansi-language:EN-US'> software for data
+                                 acquisition.<b style='mso-bidi-font-weight:normal'><o:p></o:p></b></span></li>
+                             <li class=MsoNormal style='margin-bottom:12.0pt;text-align:justify;mso-list:
+                                 l1 level1 lfo8'><span style='font-family:"Times New Roman","serif";
+                                 mso-ansi-language:EN-US'>Origin pro for data plotting and analysis. <b
+                                 style='mso-bidi-font-weight:normal'><o:p></o:p></b></span></li>
+                            </ol>
+
+                            <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+                            margin-left:.25in;margin-bottom:.0001pt'><span lang=EN-IN style='font-family:
+                            "Times New Roman","serif"'>Note: For user operation and usage no specific
+                            software needed.<o:p></o:p></span></p>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,690 @@
+<!-- This file needs to be edited by the lab developer to suit
+their lab rquirements. -->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Ultrafast Laser Virtual Lab</title>
+</head>
+
+<body>
+    <div id="lab">
+        <!-- The Lab Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab, 
+  usually displayed on the top of the page-->
+
+        <header id="lab-header">
+            <div class="logo" id="lab-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="images/logo.jpg"></div>
+
+            <div class="heading" id="lab-header-heading">
+                <!-- Write the name of your lab and link it to the home page
+    of your lab. -->
+                <a href="index.html">Welcome to Ultrafast Laser Virtual Lab</a>
+            </div><!-- Add any additional element or link you want to add to 
+    the lab header, For example : Help (Enclosing them with 
+    suitable div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="lab-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <header id="lab-article-header">
+                <!-- You can add a welcome message or title of the 
+      experiment enclosed in h1 tag here -->
+
+                <div class="heading" id="lab-article-heading">
+                    Welcome to Ultrafast Laser Virtual Lab
+                </div><!-- Add any additional element if required with proper 
+      enclosing-->
+            </header><!-- Navigation menu is useful to organize the view of 
+    multiple sections inside the article-->
+
+            <nav class="default" id="lab-article-navigation">
+                <!-- The menu will be dynamically generated to contain the 
+      headings of your sections or instead write the menu items 
+      of your choice individually enclosed in <li> tag as shown 
+      below-->
+            </nav><!-- All the sections of your lab or experiment can be 
+    enclosed together with a div element as shown below-->
+
+            <div id="lab-article-sections">
+                <!-- First section of the article-->
+
+                <section id="lab-article-section-1">
+                    <div class="icon" id="lab-article-section-1-icon">
+                    <!-- Enclose the icon image for the section. -->
+                    <img src="images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+                    <div class="heading" id="lab-article-section-1-heading">
+                        Introduction
+                    </div><!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+
+                    <div class="content" id="lab-article-section-1-content">
+                        <div >
+				           <p id="para_text_style">In a typical chemistry classroom, traditional lab activities are often taught as "cookbook" labs, which does not pay much attention to real world applications. However, understanding chemistry requires a knowledge of the structure of atoms and molecules as well as how they interact in terms of chemical reactions. Observing such details require femtosecond lasers (Zewail A. "Birth of molecules", Scientific Americans,1997). Technological intricacies and expenses involved with femtosecond lasers makes it difficult to be available in typical chemistry classrooms: so, is the need of the virtual laboratory. </p><p>&nbsp;</p>
+				        </div>
+				        <div><h1 id="para_heading_style"> What is Virtual Laboratory?</h1>
+				           <p id="para_text_style">
+				               The Virtual Laboratory is an interactive environment for creating and conducting simulated experiments: a playground for experimentation. It consists of simulated laser chacteristics: their interaction with medium in experimental units called the "modules" that encompass data files, interactive tools etc. This present release is focused on the basics of lasers, instrumentation (continuous versus pulse lasers) and linear and nonlinear interactions.ory.
+				           </p>
+				        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="lab-article-section-2">
+                    <div class="icon" id="lab-article-section-2-icon">
+                    <!-- Enclose the icon image for the section. -->
+                    <img src="images/sim.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+
+                    <div class="heading" id="lab-article-section-2-heading">
+                        List of experiments
+                    </div><!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+
+                    <div class="content" id="lab-article-section-2-content">
+                      <ul id="list-of-experiments">
+                        <li>
+                          <!--Link and name of the experiment 1 -->
+                          <a href="exp1/index.html">Ultrafast Laser Pulse Measurment
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+		    <div class="content" id="lab-article-section-2-content">
+                      <ul id="list-of-experiments">
+                        <li>
+                          <!--Link and name of the experiment 1 -->
+                          <a href="exp2/index.html">Measure of Time-frequency bandwidth relation: Experimental demonstration of Heisenberg Uncertainity Principle
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+		    <div class="content" id="lab-article-section-2-content">
+                      <ul id="list-of-experiments">
+                        <li>
+                          <!--Link and name of the experiment 1 -->
+                          <a href="exp3/index.html">Confocal Microscopy: Principles & Experiments
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+		    <div class="content" id="lab-article-section-2-content">
+                      <ul id="list-of-experiments">
+                        <li>
+                          <!--Link and name of the experiment 1 -->
+                          <a href="exp4/index.html">Live Cell Multiphoton Imaging: Principles & Experiments
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+		    <div class="content" id="lab-article-section-2-content">
+                      <ul id="list-of-experiments">
+                        <li>
+                          <!--Link and name of the experiment 1 -->
+                          <a href="exp5/index.html">Optical Tweezer with Femtosecond Laser Pulses
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+		    <div class="content" id="lab-article-section-2-content">
+                      <ul id="list-of-experiments">
+                        <li>
+                          <!--Link and name of the experiment 1 -->
+                          <a href="exp6/index.html">Thermal Lens Spectroscopy with High Repetition Rate Lasers
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                </section>
+		<section id="lab-article-section-4">
+                    <div class="icon" id="lab-article-section-4-icon">
+                    <!-- Enclose the icon image for the section. -->
+                    <img src="images/theory.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id="lab-article-section-4-heading">
+                        Theory
+                    </div><!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+
+                    <div class="content" id="lab-article-section-4-content">
+                        <div class="divContent">
+                            <div align="center" id="theory_text_heading">
+                            <font face="Purisa"><b>1. Quantum Processes</b></font>
+                            </div>
+
+                            <div align="center" id="theory_text_style_1">
+                            <font face="Purisa">Quantum properties dominate the fields of atomic and molecular physics. Radiation is quantized such 
+                            that for a given frequency of radiation, there can be only one value of quantum energy for the photons of that radiation. 
+                            The energy levels of atoms and molecules can have only certain quantized values. Transitions between these quantized states 
+                            occur by the photon processes absorption, emission, and stimulated emission. All of these processes require that the photon 
+                            energy given by the Planck relationship is equal to the energy separation of the participating pair of quantum energy states.
+                            </font>
+                            </div>
+                            <div align="center"><img src="./theory files/qpro1.gif"></div>
+
+                            <br><br><br>
+
+                            <a name="stemission"></a>
+
+                            <div align="center" id="theory_text_heading">
+                            <font face="Purisa"><b>2. Stimulated Emission </b></font></div>
+                            <div align="center" id="theory_text_style_1"><font face="Purisa">If an electron is already in an excited state 
+                            (an upper energy level, in contrast to its lowest possible level or "ground state"), then an incoming photon for which the quantum energy is equal to
+                             the energy difference between its present level and a lower level can "stimulate" a transition to that lower level, producing a second photon of the same energy. 
+                            </font>
+                            </div>
+
+                            <div align="center">
+                            <img src="./theory files/qpro2.gif">
+                            </div>
+                            <div align="center" id="theory_text_style_1">
+                            <font face="Purisa">When a sizable population of electrons resides in upper levels, this condition is called a "population inversion", and it sets the stage for
+                             stimulated emission of multiple photons. This is the precondition for the light amplification which occurs in a laser, and since the emitted photons have a definite
+                             time and phase relation to each other, the light has a high degree of coherence. 
+                            </font>
+                            </div>
+
+                            <div align="center">
+                            <img src="./theory files/qpro3.gif">
+                            </div>
+
+                            <br><br><br>
+
+                            <a name="pulse">
+                            </a>
+
+                            <div align="center" id="theory_text_heading">
+                            <font face="Purisa"><b>3. Pulse Measurement techniques</b>
+                            </font>
+                            </div>
+                            <div align="center" id="theory_text_style_1">
+                            <font face="Purisa">Several techniques are available to measure ultrashort optical pulses:
+                            </font>
+                            </div>
+                            <ul>
+                            <li style="margin-left:18px;"><div id="theory_text_style_2">
+                            <font face="Purisa">intensity autocorrelation: gives the pulse width when a particular pulse shape is assumed.</font>
+                            </div>
+                            </li>
+
+                            <li style="margin-left:18px;"><div id="theory_text_style_2">
+                            <font face="Purisa">spectral interferometry (SI): a linear technique that can be used when a pre-characterized reference pulse is available. Gives the intensity
+                             and phase. The algorithm that extracts the intensity and phase from the SI signal is direct.
+                            </font>
+                            </div>
+                            </li>
+
+                            <div align="center">
+                            <img src="./theory files/auto.png" height="200px" width="400px">
+                            </div>
+                            <div align="center" id="theory_text_heading"><font face="Purisa">Intensity Autocorrelation</font>
+                            </div>
+                            <br>
+                            <div align="center"><img src="./theory files/inter_auto.png" height="200px" width="400px">
+                            </div>
+                            <div align="center" id="theory_text_heading"><font face="Purisa">Interferrometric Autocorrelation</font>
+                            </div>
+                            <br><br><br>
+                            <a name="shg"></a>
+                            <div align="center" id="theory_text_heading"><font face="Purisa"><b>4. Second-harmonic generation</b></font>
+                            </div>
+                            <div align="center" id="theory_text_style_1">
+                            <font face="Purisa">Second harmonic generation (SHG; also called frequency doubling) is a nonlinear optical process, in which photons interacting with a nonlinear 
+                            material are effectively "combined" to form new photons with twice the energy, and therefore twice the frequency and half the wavelength of the initial photons. 
+                            It is a special case of sum frequency generation. </font></div>
+                            <div align="center"><img src="./theory files/shg.png" height="200px" width="400px">
+                            </div>
+
+                            <br><br><br>
+
+                            <a name="twolevel"></a>
+
+                            <div align="center" id="theory_text_heading"><font face="Purisa"><b>5. Two level system and Population Inversion</b></font>
+                            </div>
+                            <div align="center" id="theory_text_style_1"><font face="Purisa">The two-level atom approximation. When the light angular frequency w coincides with one of the optical transitions of 
+                            the atom, we have a resonant interaction between that transition and the light field. We can therefore neglect the other levels of the atom, which only weakly 
+                            interact with the light because they are off-resonance.</font></div>
+                            <div align="center"><img src="./theory files/2level.png" height="200px" width="400px">
+                            </div>
+
+                            <br>
+
+                            <div align="center" id="theory_text_style_1">
+                            <font face="Purisa">The atom will have many quantum levels, and there will be many possible optical transitions between them. However, in the two-level 
+                            atom approximation we only consider the specific transition that satisfies eqn E<sub>2</sub>-E<sub>1</sub>= hw and ignore all the other levels. </font>
+                            </div>
+                            <div align="center" id="theory_text_style_1"><font face="Purisa">When the light pulse is in exact resonance with the 2 level system and the electric field amplitude of pulse is a 
+                            constant then we observe Rabi oscillations (pure sinusoidal) in the system i.e. level 1 population and level 2 population oscillates between each other periodically. 
+                            But when the electric field profile of pulse is Gaussian or Sech then we observe different population dynamics in the system. For a pulse whose area under the 
+                            time-axis is a multiple of Pi, we observe complete population inversion of the 2 levels,for a pulse whose area under the time-axis is a multiple of Pi/2, 
+                            we observe half population inversion of the 2 levels </font></div>
+                            <div align="center"><img src="./theory files/pi_inv.jpg" height="200px" width="400px">
+                            </div>
+
+                            <div align="center" id="theory_text_heading">
+                            <font face="Purisa">Total population inversion with 3Pi Gaussian Pulse</font>
+                            </div>
+                            <br>
+
+                            <div align="center">
+                            <img src="./theory files/half_inv.jpg" height="200px" width="400px">
+                            </div>
+                            <div align="center" id="theory_text_heading"><font face="Purisa">Half population inversion with Pi/2 Gaussian Pulse</font>
+                            </div>
+
+                            <br>
+                            <br>
+                            <br>
+
+                            <a name="confocal"></a>
+
+                            <div align="center">
+                            <font face="Purisa" id="theory_text_heading"><b>6. Laser Scanning Confocal Microscopy</b></font>
+                            </div>
+                            <div align="center" id="theory_text_style_1">
+                            <font face="Purisa">Confocal laser scanning microscopy (CLSM or LSCM) is a technique for obtaining high-resolution optical images with depth selectivity.[1] 
+                            The key feature of confocal microscopy is its ability to acquire in-focus images from selected depths, a process known as optical sectioning. Images are acquired 
+                            point-by-point and reconstructed with a computer, allowing three-dimensional reconstructions of topologically complex objects. For opaque specimens, this is useful 
+                            for surface profiling, while for non-opaque specimens, interior structures can be imaged. For interior imaging, the quality of the image is greatly enhanced over 
+                            simple microscopy because image information from multiple depths in the specimen is not superimposed. A conventional microscope "sees" as far into the specimen as 
+                            the light can penetrate, while a confocal microscope only images one depth level at a time. In effect, the CLSM achieves a controlled and highly limited depth of 
+                            focus. 
+                            </font>
+                            </div>
+                            <div align="center">
+                            <img src="./theory files/confocal.png" height="200px" width="400px">
+                            </div>
+
+                            <div align="center" id="theory_text_heading"><font face="Purisa">Principle 
+                            of Confocal Microscopy</font>
+                            </div>
+                            <br>
+
+                            <div align="center" id="theory_text_style_1">
+                            <font face="Purisa">In a confocal laser scanning microscope, a laser beam passes through a light source aperture and then is focused by an objective lens into a 
+                            small (ideally diffraction limited) focal volume within or on the surface of a specimen. In biological applications especially, the specimen may be fluorescent. 
+                            Scattered and reflected laser light as well as any fluorescent light from the illuminated spot is then re-collected by the objective lens. A beam splitter separates 
+                            off some portion of the light into the detection apparatus, which in fluorescence confocal microscopy will also have a filter that selectively passes the fluorescent 
+                            wavelengths while blocking the original excitation wavelength. After passing a pinhole, the light intensity is detected by a photodetection device (usually a 
+                            photomultiplier tube (PMT) or avalanche photodiode), transforming the light signal into an electrical one that is recorded by a computer. 
+                            </font></div>
+                            <div align="center"><img src="./theory files/confocal2.jpeg" height="400px" width="600px">
+                            </div>
+                            <div align="center" id="theory_text_heading">
+                            <font face="Purisa">Schematic diagram of CLSM components</font></div>
+                            <br>
+                            <div align="center"><img src="./theory files/im1.jpeg" height="400px" width="600px">
+                            </div>
+                            <div align="center" id="theory_text_heading">
+                            <font face="Purisa">Comparison of widefield (upper row) and laser scanning confocal fluorescence microscopy images (lower row).
+                            </font>
+                            </div>
+                            <br><br><br>
+                            <a name="zscan"></a>
+
+                            <div align="center" id="theory_text_heading">
+                            <font face="Purisa"><b>7. Z-Scan Techniques</b>
+                            </font>
+                            </div>
+                            <div align="center" id="theory_text_style_1">
+                            <font face="Purisa">In Nonlinear optics a z-scan measurement is used to measure the non-linear index n<sub>2</sub> 
+                            Kerr nonlinearity and the non-linear absorption 
+                            coefficient &amp;delta&amp;alpha via the "open" and "closed" methods respectively. As nonlinear absorption can affect the measurement of the non-linear index the 
+                            open method is typically used in conjunction with the closed method to correct the calculated value. </font></div>
+                            <div align="center"><img src="./theory files/zscan.png" height="200px" width="700px">
+                            </div>
+
+                            <div align="center" id="theory_text_heading">
+                            <font face="Purisa"><b>Zscan measurement diagram</b></font>
+                            </div>
+                            <br>
+
+                            <div align="center" id="theory_text_style_1">
+                            <font face="Purisa">Closed Aperture Z-scan Technique : In this setup an aperture is placed to prevent some of the light from reaching the detector. The equipment is 
+                            arranged as can be seen in the diagram. A lens focuses a laser to a certain point, and after this point the beam naturally defocuses. After a further distance an 
+                            aperture is placed with a detector behind it. The aperture causes only the central region of the cone of light to reach the detector. Typically values of the 
+                            normalised transmittance are between 0.1 &lt; S &lt; 0.5. </font></div>
+                            <div align="center" id="theory_text_style_1"><font face="Purisa">Open Aperture Z-scan Technique : This method is 
+                            similar to the above method, however the aperture is removed or enlarged to allow all the light to reach the detector. This in effect sets the normalised 
+                            transmittance to S = 1. This is used in order to measure the non-linear absorption coefficient &amp;delta&amp;alpha . 
+                            </font>
+                            </div>
+
+                            <br><br><br>
+
+                            <a name="trapping"></a>
+
+                            <div align="center" id="theory_text_heading"><font face="Purisa"><b>8. Optical Trapping and Tweezers</b>
+                            </font>
+                            </div>
+
+                            <div align="center" id="theory_text_style_1">><font face="Purisa">Optical tweezers (originally called "single-beam gradient force trap") are scientific instruments that use a highly-focused 
+                            laser beam to provide an attractive or repulsive force (typically on the order of piconewtons), depending on the refractive index mismatch to physically hold and move
+                             microscopic dielectric objects.  </font>
+                            </div>
+
+                            <div align="center">
+                            <img src="./theory files/tweezer.jpg" height="500px" width="700px">
+                            </div>
+                            <div align="center" id="theory_text_heading"><font face="Purisa">Optical tweezer diagram</font>
+                            </div>
+                            <br>
+                            <div align="center" id="theory_text_style_1"><font face="Purisa">Optical tweezers are capable of manipulating nanometer and micrometer-sized dielectric particles by exerting 
+                            extremely small
+                             forces via a highly focused laser beam. The beam is typically focused by sending it through a microscope objective. The narrowest point of the focused beam, known 
+                            as the beam waist, contains a very strong electric field gradient. It turns out that dielectric particles are attracted along the gradient to the region of strongest 
+                            electric field, which is the center of the beam. The laser light also tends to apply a force on particles in the beam along the direction of beam propagation. It is 
+                            easy to understand why if one considers light to be a group of particles, each impinging on the tiny dielectric particle in its path. This is known as the scattering 
+                            force and results in the particle being displaced slightly downstream from the exact position of the beam waist. </font>
+                            </div>
+
+                            <br>
+                            <div align="center">
+                            <font face="Purisa">
+                            <b>Source: Wikipedia, Google Images, Quantum optics (by Mark Fox), LCSM by Claxton</b></font>
+                            </div>
+
+                            <br>
+                            </ul>
+                            </td>
+
+                            </tr>
+                            </tbody></table>
+
+                            </td>
+
+                            <td width="15%">
+                            </td>
+
+                            </tr>
+
+                            </table>
+                        </div>                        
+                    </div>
+        </section><!-- Second section of the article-->
+
+		<section id="lab-article-section-5">
+                    <div class="icon" id="lab-article-section-5-icon">
+                    <!-- Enclose the icon image for the section. -->
+                    <img src="images/procedure.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id="lab-article-section-5-heading">
+                        Procedure
+                    </div><!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+
+                    <div class="content" id="lab-article-section-5-content">
+                        <div class="divContent">
+                            <div align="center">
+                                <font face="Purisa" style="font-size:20px;text-decoration:underline;"><b>Autocorrelation Setup</b></font>
+                            </div>
+
+                            <div align="center">
+                                <img src="procedure files/autocorrelation setup.jpg" height="300px" width="650px">
+                            </div>
+                            <br>
+                        <!--	<div align="center" style="background-color:none;">
+                                <font face="Purisa" style="font-size:20px;text-decoration:underline;"><b>Lab Tour</b></h2></font>
+                            </div><br>
+	
+	                        <div align="center" style="background-color:none;width:600px;margin-left:214px;" id="dvsPlayer_1">
+                                <video >
+		
+                        </video>
+                            </div><br> -->
+	
+	                        <div align="center" style="background-color:none;">
+                                <font face="Purisa" style="font-size:20px;text-decoration:underline;"><b>Field Autocorrelation</b></h2></font>
+                            </div>
+                            <br>
+	
+	                         <div style="margin-left:200px;" id="dvsPlayer_2" >
+                                <video>
+	    	                        <source src="video/virtual field autocorrelation(2).mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+	                                <source src="video/virtual field autocorrelation(2).ogv" type='video/ogg; codecs="theora, vorbis"'>
+                                </video>
+                            </div>
+                            <br>
+	                        <div align="center" style="background-color:none;">
+                                <font face="Purisa" style="font-size:20px;text-decoration:underline;"><b>Intensity Autocorrelation</b></h2></font>
+                            </div><br>
+	                        <div style="margin-left:200px;" id="dvsPlayer_3">
+	                           <video>
+                                    <source src="video/virtual intensity autocorrelation.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                                    <source src="video/virtual intensity autocorrelation.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                                </video>
+                            </div><br>
+	
+	                        <div align="center" style="background-color:none;">
+                                <font face="Purisa" style="font-size:20px;text-decoration:underline;"><b>Non Collinear Autocorrelation</b></font>
+                            </div><br>
+	                        <div style="margin-left:200px;" id="dvsPlayer_4">
+                                <video >
+                                    <source src="video/virtual non collinear(1).mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+	                                <source src="video/virtual non collinear(1).ogv" type='video/ogg; codecs="theora, vorbis"'>
+                                </video>
+                            </div><br>
+	                        <div align="center" style="background-color:none;">
+                                <font face="Purisa" style="font-size:20px;text-decoration:underline;"><b>Z-Scan Saturable Absorption</b></font>
+                            </div><br>
+	                        <div style="margin-left:200px;" id="dvsPlayer_5">
+                                <video>
+ 		                            <source src="video/virtual zscan tpa 1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+        	                        <source src="video/virtual zscan tpa 1.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                                </video>
+                            </div><br>
+	                        <div align="center" style="background-color:none;">
+                                <font face="Purisa" style="font-size:20px;text-decoration:underline;"><b>Z-Scan Two Photon Absorption</b></font>
+                            </div><br>
+	                        <div style="margin-left:200px;" id="dvsPlayer_6">
+                                <video>
+		                            <source src="video/virtual zscan sa 1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+	                                <source src="video/virtual zscan sa 1.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                                </video>
+                            </div>
+                        <!-------------------------------------------------------------------------------------------->	
+                        <link href="dvs/dvs_common_style.css" type="text/css" rel="stylesheet" />
+                        <script src="dvs/ButtonClassicSkinPlay.js" type="text/javascript"></script>
+                        <script src="dvs/ClassicSkinPlay.js" type="text/javascript"></script>
+                        <script src="dvs/ClassicNeoSkinPlay.js" type="text/javascript"></script>
+                        <script src="dvs/LineSkinPlay.js" type="text/javascript"></script>
+                        <script src="dvs/LineSimpleSkinPlay.js" type="text/javascript"></script>
+
+                        <script src="dvs/dvs_settings.js" type="text/javascript"></script>
+                        <script src="dvs/DragObject.js" type="text/javascript"></script>
+                        <script src="dvs/dragMaster.js" type="text/javascript"></script>
+                        <script src="dvs/helpers.js" type="text/javascript"></script>
+                        <script src="dvs/dvsplayer.js" type="text/javascript"></script>
+
+                        <!--    
+                        <script type="text/javascript">
+                                var dvsPlayer_1 = new DVS_html5player();
+                                var skin = new LineSimpleSkinPlay();
+                                var sett = new dvsplay_settings();
+                                sett.autoSize=true;
+                                dvsPlayer_1.Skin = skin;
+                                dvsPlayer_1.settings=sett;		
+                                dvsPlayer_1.Init('dvsPlayer_1');
+                                dvsPlayer_1.dvs_play_control.style.backgroundColor='#3D60A5';
+                        </script> -->
+                        <script type="text/javascript">
+                                var dvsPlayer_2 = new DVS_html5player();
+                                var skin = new LineSimpleSkinPlay();
+                                var sett = new dvsplay_settings();
+                                sett.autoSize=true;
+                                dvsPlayer_2.Skin = skin;
+                                dvsPlayer_2.settings=sett;		
+                                dvsPlayer_2.Init('dvsPlayer_2');
+                                dvsPlayer_2.dvs_play_control.style.backgroundColor='#3D60A5';
+                        </script>
+                        <script type="text/javascript">
+                                var dvsPlayer_3 = new DVS_html5player();
+                                var skin = new LineSimpleSkinPlay();
+                                var sett = new dvsplay_settings();
+                                sett.autoSize=true;
+                                dvsPlayer_3.Skin = skin;
+                                dvsPlayer_3.settings=sett;		
+                                dvsPlayer_3.Init('dvsPlayer_3');
+                                dvsPlayer_3.dvs_play_control.style.backgroundColor='#3D60A5';
+                        </script>
+                        <script type="text/javascript">
+                                var dvsPlayer_4 = new DVS_html5player();
+                                var skin = new LineSimpleSkinPlay();
+                                var sett = new dvsplay_settings();
+                                sett.autoSize=true;
+                                dvsPlayer_4.Skin = skin;
+                                dvsPlayer_4.settings=sett;		
+                                dvsPlayer_4.Init('dvsPlayer_4');
+                                dvsPlayer_4.dvs_play_control.style.backgroundColor='#3D60A5';
+                        </script>
+                        <script type="text/javascript">
+                                var dvsPlayer_5 = new DVS_html5player();
+                                var skin = new LineSimpleSkinPlay();
+                                var sett = new dvsplay_settings();
+                                sett.autoSize=true;
+                                dvsPlayer_5.Skin = skin;
+                                dvsPlayer_5.settings=sett;		
+                                dvsPlayer_5.Init('dvsPlayer_5');
+                                dvsPlayer_5.dvs_play_control.style.backgroundColor='#3D60A5';
+                        </script>
+                        <script type="text/javascript">
+                                var dvsPlayer_6 = new DVS_html5player();
+                                var skin = new LineSimpleSkinPlay();
+                                var sett = new dvsplay_settings();
+                                sett.autoSize=true;
+                                dvsPlayer_6.Skin = skin;
+                                dvsPlayer_6.settings=sett;		
+                                dvsPlayer_6.Init('dvsPlayer_6');
+                                dvsPlayer_6.dvs_play_control.style.backgroundColor='#3D60A5';
+                        </script>
+                        <!-------------------------------------------------------------------------------------------->	
+	
+                        <br><br><br>	
+                        </div>
+                    </div>
+        </section>
+		<section id="lab-article-section-6">
+                    <div class="icon" id="lab-article-section-6-icon">
+                    <!-- Enclose the icon image for the section. -->
+                    <img src="images/books.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id="lab-article-section-6-heading">
+                        References
+                    </div><!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+
+                    <div class="content" id="lab-article-section-6-content">
+                        <div class="divContent">
+    					    <div id="experiments">
+					        <table>
+							    <tr>
+						            
+									<td>
+									    <h2 style="color:orange;text-decoration:underline;font-size:24px;"><font face="Purisa">Books</font></h2>
+									</td>
+								</tr>
+					            <tr>
+								    <td id="experiments_list_icon"></td>
+									<td id="experiments_list">
+									    <h2><font face="Purisa">Laser Fundamentals- William Silfvast (Cambridge University press.2nd Edn.)</font></h2>
+									</td>
+								</tr>
+								<tr>
+								    <td id="experiments_list_icon"></td>
+									<td id="experiments_list">
+									    <h2><font face="Purisa">Femtosecond Laser Pulses- Claude Rulliere (Springer,2nd Edn.)</font></h2>
+									</td>
+								</tr>
+								<tr>
+								    <td id="experiments_list_icon"></td>
+									<td id="experiments_list">
+									    <h2><font face="Purisa">Ultrafast Optics- A M Weiner (John Wiley &amp; Sons, Inc.)</font></h2>
+									</td>
+								</tr>
+								<tr>
+								    <td id="experiments_list_icon"></td>
+									<td id="experiments_list">
+									  <h2><font face="Purisa">Lasers- A E Siegman (University Science Books.)</font></h2>
+									</td>
+								</tr>
+								<tr>
+								    <td id="experiments_list_icon"></td>
+									<td id="experiments_list">
+									   <h2><font face="Purisa">Interferometry -W H Steel (Cambridge University Press.)</font></h2>
+									</td>
+								</tr>
+								<tr>
+								    <td id="experiments_list_icon"></td>
+									<td id="experiments_list">
+									  <h2><font face="Purisa">Lasers- P W Milonni &amp; J H Eberly (John Wiley &amp; Sons)</font></h2>
+									</td>
+								</tr>
+					            <tr>
+						            
+									<td>
+									    <h2 style="color:orange;text-decoration:underline;font-size:24px;">
+										<font face="Purisa">Research Papers</font></h2>
+									</td>
+								</tr>
+					            <tr>
+								    <td id="experiments_list_icon"></td>
+									<td id="experiments_list">
+									    <h2><font face="Purisa">E. W. Van Stryland and M. Sheik-Bahae, in Characterization Techniques and
+										Tabulations for Organic Nonlinear Materials, M. G. Kuzyk and C. W. Dirk, Eds., page 655-692, Marcel
+										Dekker, Inc., 1998.</font></h2>
+									</td>
+								</tr>
+								<tr>
+								    <td id="experiments_list_icon"></td>
+									<td id="experiments_list">
+									    <h2><font face="Purisa">A Zewail "Birth of molecules" ,Scientific Americans,1997.</font></h2>
+									</td>
+								</tr>
+								
+					        </table>
+				    	    </div>
+                        </div>
+                    </div>
+        </section>
+            </div><!-- An article can have a sidebar that contain related 
+      links and additional material (it is optional at this 
+      moment)-->
+
+            <aside class="default" id="lab-article-sidebar">
+                <!-- put the content that you want to appear in the 
+        sidebar-->
+            </aside><!-- Article footer can display related content and 
+      additional links -->
+
+         </article><!-- Links to other labs, about us page can be kept the lab -->
+  
+
+        <footer  class="footer">
+        <!-- Put the content here -->
+        <div style="margin-left:40%; margin-right:40% ">
+        <a href="license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+        </div>
+      </footer> 
+    </div>
+</body>
+</html>
